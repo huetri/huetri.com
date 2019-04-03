@@ -1,0 +1,37 @@
+---
+label: post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: text
+  name: dc:creator
+  label: author
+- type: datetime
+  name: date
+  label: date
+- type: tag_list
+  name: categories
+  label: categories
+- type: tag_list
+  name: tags
+  label: tags
+- type: text
+  name: layout
+  label: layout
+  default: post
+  config:
+    required: true
+  hidden: true
+- type: file
+  name: thumbnail_url
+  label: thumbnail_url

@@ -1,0 +1,58 @@
+title: Tri Ton – World on Perspective – to the edge of humanity
+email: huetri@gmail.com
+description: to the edge of humanity
+baseurl: "/huetri.com"
+url: "https://beohoang98.github.io"
+twitter_username: HueTri_Ton
+github_username: jekyll
+permalink: pretty
+
+include: [_Incapsula_Resource]
+
+collections:
+    pages:
+        output: true
+        permalink: /:slug/
+    posts:
+        output: true
+        permalink: /:year/:month/:day/:slug/
+    gallery:
+        output: true
+        permalink: /:slug/
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+    - jekyll-feed
+    - jekyll-archives
+    - jekyll-menus
+    - jekyll-sitemap
+    - jekyll-paginate
+
+paginate: 6
+paginate_path: /page/:num/
+
+sass:
+    style: compressed
+
+jekyll-archives:
+    enabled: [categories, month, year, day, tags]
+    layout: category
+    permalinks:
+        year: "/:year/"
+        month: "/:year/:month/"
+        day: "/:year/:month/:day/"
+        tag: "/tag/:name/"
+        category: "/category/:name/"
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

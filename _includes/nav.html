@@ -1,0 +1,18 @@
+<a id="nav-toggle"><span>&nbsp;</span></a>
+<nav id="access" role="navigation">
+    <div class="skip-link screen-reader-text">
+        <a href="#content" title="Skip to content">Skip to content</a>
+    </div>
+    <div class="menu">
+        <ul id="prime_nav" class="menu">
+            {%- for item in site.menus.nav -%}
+                <li id="menu-item-{{item.identifier}}"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-{{item.identifier}}">
+                    <a href="{{item.url | relative_url }}">
+                        <span>{{item.title}}</span>
+                    </a>
+                </li>
+            {%- endfor -%}
+        </ul>
+    </div>
+</nav><!-- #access -->

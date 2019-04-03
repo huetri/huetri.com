@@ -1,0 +1,54 @@
+---
+topbar:
+- url: "/triton/"
+  title: Tri Ton
+  identifier: triton
+  weight: 1
+- url: "/category/global-macro"
+  title: Global Macro
+  identifier: global-macro
+  weight: 2
+- url: "/category/investment"
+  title: Investment
+  identifier: investment
+  weight: 3
+- url: "/category/nomad-thinking"
+  title: Nomad Thinking
+  identifier: nomad-thinking
+  weight: 4
+- url: "/life/"
+  title: 'Explore: Life'
+  identifier: life
+  weight: 5
+- url: "/explore-nature/"
+  title: 'Explore: Nature'
+  identifier: explore-nature
+  weight: 6
+- url: "/explore-people-cultures/"
+  title: 'Explore: People & Cultures'
+  identifier: explore-people-cultures
+  weight: 7
+- url: "/explore-my-exploration/"
+  title: 'Explore: My Exploration'
+  identifier: explore-my-exploration
+  weight: 8
+nav:
+- weight: 1
+  url: "/"
+  title: Home
+- url: "/triton/"
+  title: Tri Ton
+  identifier: triton
+  weight: 2
+- url: "/category/global-macro"
+  title: Global Macro
+  identifier: global_macro
+  weight: 3
+- url: "/category/investment"
+  title: Investment
+  identifier: investment
+  weight: 4
+- url: "/category/nomad-thinking"
+  title: Nomad Thinking
+  identifier: Nomad Thinking
+  weight: 5

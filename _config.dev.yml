@@ -1,0 +1,4 @@
+port: 8001
+protocol: 'http:'
+host: 0.0.0.0
+incremental: true

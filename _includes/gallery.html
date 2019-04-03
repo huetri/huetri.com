@@ -1,0 +1,54 @@
+<div class="gallery" baseurl="{{ site.baseurl }}">
+    <link async rel="stylesheet" href="{{- '/css/gallery.css' | relative_url -}}">
+    <div class="gallery-container">
+        {%- for image in page.gallery -%}
+            <div class="gallery-item" title="{{- image.title -}}">
+                <img src="{{- image.image | relative_url | replace: '.jpg', '-min.jpg' | replace: '.png', '-min.png' -}}" 
+                    data-src="{{- image.image | relative_url -}}"
+                    alt="{{- image.title -}}">
+                <div class="gallery-item-description">
+                    {{- image.description | truncate: 50, '...' -}}
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
+    <div class="gallery-modal" style="--item: 0; --total: {{ page.gallery.size }}; overflow-y: auto !important;">
+        <div class="gallery-modal-background"></div>
+        <div class="gallery-modal-content">
+            <div class="gallery-modal-slide">
+                {%- for image in page.gallery -%}
+                    <div class="gallery-modal-item" title="{{- image.title -}}">
+                        <img src="{{- image.image | relative_url | replace: '.jpg', '-min.jpg' | replace: '.png', '-min.png' -}}" 
+                            data-src="{{- image.image | relative_url -}}"
+                            alt="{{- image.title -}}">
+                        <div class="gallery-modal-item-info">
+                            <h2>{{- image.title -}}
+                                <span style="float: right">
+                                    <div class="fb-like" 
+                                        data-href="{{ site.url }}{{- image.image | relative_url -}}" 
+                                        data-layout="button_count" 
+                                        data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+                                </span>
+                            </h2>
+                            <div>
+                                {{- image.description -}}
+                            </div>
+                            <div class="gallery-comments">
+                                <div class="fb-comments" data-href='{{- site.url | append: image.image -}}' 
+                                    data-numposts="5"
+                                    data-width="100%"
+                                    style="margin: 0 auto"
+                                    data-colorscheme="dark"></div>
+                            </div>
+                        </div>
+                    </div>
+                {%- endfor -%}
+            </div>
+            <div class="gallery-modal-control">
+                <div class="gallery-modal-control-left"></div>
+                <div class="gallery-modal-control-right"></div>
+            </div>
+        </div>
+        <div class="gallery-modal-close">X</div>
+    </div>
+</div>

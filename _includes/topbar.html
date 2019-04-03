@@ -1,0 +1,23 @@
+<div id="topbar">
+    <div id="topbar-inner">
+        <nav class="topmenu">
+            <ul id="menu-full-menu" class="menu">
+                {%- for item in site.menus.topbar -%}
+                    <li id="topbar-item-{{item.identifier}}"
+                        class="menu-item menu-item-type-post_type menu-item-object-page">
+                        <a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
+                    </li>
+                {%- endfor -%}
+            </ul>
+        </nav>
+        <div class="socials" id="sheader">
+            <a target="_blank" href="http://www.linkedin.com/in/huetri"
+                rel="noopener noreferrer"
+                class="socialicons social-LinkedIn"
+                title="LinkedIn">
+                <img alt="LinkedIn" src="{{site.baseurl}}/wp-content/themes/tempera/images/socials/LinkedIn.png" scale="0">
+                <div class="socials-hover"></div>
+            </a>
+        </div>
+    </div>
+</div>

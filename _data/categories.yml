@@ -1,0 +1,14 @@
+- name: Global Macro
+  child:
+      - Current Flow
+      - Macro Major Events
+      - "Market: Vietnam"
+- name: Investment
+  child:
+      - Private Equity
+      - Ventures
+- name: Nomad Thinking
+  child:
+      - Floating Curves
+      - Life in Technicolor
+      - My Life Flavors

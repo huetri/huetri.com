@@ -1,0 +1,52 @@
+---
+new_page_extension: md
+auto_deploy: true
+admin_path: "/admin/"
+webhook_url: 
+sections:
+- type: directory
+  path: _gallery
+  label: Gallery
+  create: documents
+  match: "**/*"
+  new_doc_ext: md
+  templates:
+  - gallery
+- type: directory
+  path: _drafts
+  label: Drafts
+  create: documents
+  match: "**/*"
+  new_doc_ext: md
+  templates:
+  - post
+- type: jekyll-posts
+  label: Posts
+  create: documents
+  templates:
+  - post
+- type: heading
+  label: Developer Section
+- type: jekyll-pages
+  label: Pages
+  create: documents
+- type: directory
+  path: wp-content/uploads
+  label: Images
+  create: all
+  match: "**/*"
+  new_doc_ext: "*"
+upload_dir: wp-content/uploads
+public_path: "/wp-content/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":year:/:month:/:day:/:filename:"
+build:
+  preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
+  publish_command: bundle exec jekyll build -d _site
+  preview_env:
+  - JEKYLL_ENV=staging
+  publish_env:
+  - JEKYLL_ENV=production
+  preview_output_directory: _site
+  output_directory: _site

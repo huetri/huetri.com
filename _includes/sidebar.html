@@ -1,0 +1,78 @@
+<div id="primary" class="widget-area sidey" role="complementary">
+    <ul class="xoxo">
+        <li id="categories-2" class="widget-container widget_categories"
+            ><h3 class="widget-title">Interests</h3>
+            <ul>
+                {%- for main_cat in site.data.categories -%}
+                <li class="cat-item cat-item-3">
+                    <a
+                        href="{{ site.baseurl }}/category/{{
+                            main_cat.name | slugify
+                        }}/"
+                        >{{ main_cat.name }}</a
+                    >
+                    <ul class="children">
+                        {%- for subcat in main_cat.child -%}
+                        <li class="cat-item cat-item-12"
+                            ><a
+                                href="{{ site.baseurl }}/category/{{
+                                    subcat | slugify
+                                }}/"
+                                >{{ subcat }}</a
+                            >
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                </li>
+                {%- endfor -%}
+            </ul> </li
+        ><li
+            id="blog_subscription-2"
+            class="widget-container widget_blog_subscription jetpack_subscription_widget"
+            ><h3 class="widget-title"></h3>
+            <form
+                action="#"
+                method="post"
+                accept-charset="utf-8"
+                id="subscribe-blog-blog_subscription-2"
+            >
+                <p id="subscribe-email">
+                    <label
+                        id="jetpack-subscribe-label"
+                        class="screen-reader-text"
+                        for="subscribe-field-blog_subscription-2"
+                    >
+                        Email
+                    </label>
+                    <input
+                        type="email"
+                        name="email"
+                        required="required"
+                        class="required"
+                        value=""
+                        id="subscribe-field-blog_subscription-2"
+                        placeholder="Email"
+                    />
+                </p>
+
+                <p id="subscribe-submit">
+                    <input type="hidden" name="action" value="subscribe" />
+                    <input
+                        type="hidden"
+                        name="source"
+                        value="https://huetri.com/life/"
+                    />
+                    <input type="hidden" name="sub-type" value="widget" />
+                    <input
+                        type="hidden"
+                        name="redirect_fragment"
+                        value="blog_subscription-2"
+                    />
+                    <button type="submit" name="jetpack_subscriptions_widget">
+                        Subscribe
+                    </button>
+                </p>
+            </form>
+        </li>
+    </ul>
+</div>

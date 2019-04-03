@@ -1,0 +1,52 @@
+---
+label: gallery
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  config:
+    date_format: DD/MM/YYYY
+    required: false
+    display_utc: true
+- type: text
+  name: slug
+  label: slug
+  description: 'tên đoạn url của bài viết. VD: explore-life, explore-abc-xyz'
+  config:
+    required: true
+- type: field_group_list
+  name: gallery
+  label: gallery
+  config:
+    min: '1'
+  fields:
+  - type: text
+    name: title
+    label: title
+    config:
+      required: true
+  - type: textarea
+    name: description
+    label: description
+    config:
+      required: false
+  - type: file
+    name: image
+    label: image
+- type: text
+  name: layout
+  label: layout
+  config:
+    required: true
+  default: gallery
+  hidden: true
+- type: text
+  name: author
+  label: author
+  default: huetri@gmail.com

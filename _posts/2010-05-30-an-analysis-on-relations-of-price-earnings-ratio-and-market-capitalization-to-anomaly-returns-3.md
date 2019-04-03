@@ -1,0 +1,201 @@
+---
+title: >-
+  An Analysis on Relations of Price-Earnings Ratio and Market Capitalization to
+  Anomaly Returns [3]
+link: >-
+  https://huetri.com/2010/05/30/an-analysis-on-relations-of-price-earnings-ratio-and-market-capitalization-to-anomaly-returns-3/
+pubDate: 'Sun, 30 May 2010 11:47:56 +0000'
+'dc:creator': huetri@gmail.com
+guid:
+  isPermaLink: 'false'
+  $t: 'https://huetri.com/?p=651'
+description: {}
+id: 651
+thumbnail_url: ''
+categories:
+  - Investment
+  - 'Market: Vietnam'
+tags:
+  - Academic
+  - Vietnam Investment
+date: 'Sun, 30 May 2010 04:47:56 GMT'
+layout: post
+post_date_gmt: '2010-05-30 11:47:56'
+comment_status: closed
+ping_status: open
+post_name: >-
+  an-analysis-on-relations-of-price-earnings-ratio-and-market-capitalization-to-anomaly-returns-3
+status: publish
+post_parent: '0'
+menu_order: '0'
+post_type: post
+post_password: {}
+is_sticky: '0'
+postmeta:
+  - meta_key: _edit_last
+    meta_value: '1'
+  - meta_key: geo_latitude
+    meta_value: '45.509313'
+  - meta_key: geo_longitude
+    meta_value: '-122.485693'
+  - meta_key: geo_accuracy
+    meta_value: '20'
+  - meta_key: geo_address
+    meta_value: '17141-17225 SE Stephens St, Portland, OR 97236, USA'
+  - meta_key: geo_public
+    meta_value: '1'
+  - meta_key: _wpas_skip_yup
+    meta_value: '1'
+  - meta_key: _wpas_skip_2962598
+    meta_value: '1'
+  - meta_key: _wpas_skip_fb
+    meta_value: '1'
+  - meta_key: _wpas_skip_2962641
+    meta_value: '1'
+  - meta_key: _wpas_skip_ms
+    meta_value: '1'
+  - meta_key: _ideation_attached_images
+    meta_value: '653'
+  - meta_key: _ideation_attached_images
+    meta_value: '654'
+  - meta_key: _wpt_view_count
+    meta_value: '1541'
+  - meta_key: _snap_forceSURL
+    meta_value: '2'
+  - meta_key: snap_MYURL
+    meta_value: {}
+  - meta_key: snapEdIT
+    meta_value: '1'
+  - meta_key: snapFB
+    meta_value: >-
+      s:253:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"postType";s:1:"A";s:10:"AttachPost";s:1:"2";s:10:"SNAPformat";s:51:"New
+      post (%TITLE%) has been published on
+      %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";}}";
+  - meta_key: snapLI
+    meta_value: >-
+      s:262:"a:1:{i:0;a:8:{s:4:"doLI";s:1:"1";s:8:"postType";s:1:"A";s:10:"SNAPformat";s:41:"New
+      post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post -
+      %TITLE%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";}}";
+  - meta_key: snapTW
+    meta_value: >-
+      s:145:"a:1:{i:0;a:5:{s:4:"doTW";s:1:"1";s:10:"SNAPformat";s:15:"%TITLE% -
+      %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";}}";
+  - meta_key: wp_review_location
+    meta_value: bottom
+  - meta_key: wp_review_desc_title
+    meta_value: Summary
+  - meta_key: _wpas_skip_2962584
+    meta_value: '1'
+  - meta_key: wp_review_color
+    meta_value: '#1e73be'
+  - meta_key: wp_review_fontcolor
+    meta_value: '#555555'
+  - meta_key: wp_review_bgcolor1
+    meta_value: '#e7e7e7'
+  - meta_key: wp_review_bgcolor2
+    meta_value: '#ffffff'
+  - meta_key: wp_review_bordercolor
+    meta_value: '#e7e7e7'
+  - meta_key: _wpas_skip_6063117
+    meta_value: '1'
+  - meta_key: wp_review_review_count
+    meta_value: '0'
+  - meta_key: wp_review_user_reviews
+    meta_value: '0'
+
+---
+**CHAPTER II**
+
+**LITERATURE REVIEW**
+
+_It is a long continuously evolving history of academic financial world, which divided into numerous different schools and development paths. This section attempts to give a bird’s-eye-view to the evolving history of Price Earnings findings, Market Capitalization studies and their family issues which finally lead to the birth of this thesis._
+
+**1\. Efficient Market Hypothesis** Let’s start with the centre of finance theory: **Efficient Market Hypothesis**. In an efficient financial market, as stated on Efficient Market Hypothesis (hereafter: EMH), security prices fully reflect all available information in the market in an unbiased and rapid manner. While there are a substantial amount of researches support strongly for evidence of Efficient Market Hypothesis, many converse academic schools still exist and pose hard questions on it validity. This first Literature Review’s section will go through Efficient Market Hypothesis, one of the most significant and influential theories of investment and financial world, the next sections briefly introduce anomaly concept and some empirical researches toward it.
+
+Efficient Market Hypothesis contains an interesting history along with it. The EMH was first officially known under the dissertation of Professor Eugene Fama at the University of Chicago in the early 1960s. Tracking back to the history, the EMH mostly developed from a theory named **Random Walk**, the theory about stock prices movement generally occurs randomly. Random Walk had initiated numerous other empirical researches without much theory behind it. However, the root of Efficient Market Hypothesis did not stop at Random Walk as most people often think of. Actually, the idea was first expressed and quickly come into forgotten in the dissertation “The Theory of Speculation” of Louis Bachelier, a French mathematician.
+
+So why should the market be efficient? The logic lays behind the hypothesis are clearly stated as its premises and assumptions: (1) There is a large number of profit-maximizing participants analyze and value securities, independently from each other. (2) New information regarding securities comes to the market in a random fashion and the announcement is generally independent. (3) Profit-maximizing investors adjust security prices rapidly to reflect the effect of new information.
+
+The combined effects of (1) information come out randomly and (2) numerous profit-maximizing investors quickly adjust new information to stock prices define the efficient level of a financial market. And due to the information is reflected fully in the stock price, the expected returns implied in the price of a security should also reflect its risk.
+
+In the original work of Fama, EMH was structured into three sub hypotheses depending on the level of information set involve: (1) Weak-form EMH, (2) Semi-strong-form EMH, and (3) Strong-form EMH. The next paragraphs will briefly go through these three forms.
+
+The **Weak-form Efficient Market Hypothesis** states that the current stock prices fully reflect all security market information. This hypothesis also implies that past yield and other historical market information like price and volume should have no relationship to future rates of return.
+
+The **Semi-strong-form Efficient Market Hypothesis** assumes that security prices adjust rapidly to the release of all public information. In another word, all public information (includes all non-market information) has been reflected into the prices of securities. The reasoning behind this hypothesis is that the numerous profit-maximizing investors will quickly assert to the arbitrage opportunities every time the new public information released. Therefore, one invests based on any important new information after its publicity should not expect abnormal returns considered trading cost and tax.
+
+The **Strong-form Efficient Market Hypothesis** asserts that security prices already fully reflect all information from public to private sources. This also means that no any group or individual have any monopolistic access to information that might affect to stock price and no group or individual should be able to consistently earn above-average risk-adjusted rates of return.
+
+The Efficient Hypothesis Market, like most of other theories, gets extensively empirical studies toward it; and the validity of the hypothesis is still mixed so far. Some studies support the theory and indicate that the capital markets are efficient, however, some others have asserted to ability to earn anomalies that indicate that the market is not efficient enough. Take the Semi-strong-form EMH for example, most of researches toward the validity of Semi-strong-form of EMH are divided into two subsets: (1) return prediction studies (try to predict the time series of future returns) and, (2) event studies (examine the possibility of anomaly immediately after an announcement of a significant economic event). Some interesting famous findings included: **Earning surprise** - a large unanticipated earning change leads to anomaly in stock after the information come out, **The January Anomaly** - abnormal returns of stock during January, **Calendar Effects** - like Weekend/day-of-the-week Effect, Intraday Effect, Monday Trading Effect, etc. that lead to abnormal returns, **Stock Split Effect** - abnormal high demand after a stock split announcement, **Initial Public Offering** or **IPO Effect** – High demand of IPO stocks, practitioners in Vietnam generally admit a strong IPO Effects in both VNIndex and HNX-Index, **Neglected Firms and Trading Activity** – Illiquidity stocks bring higher return as compensating for the illiquidity, and other value figures effect like **Book Value-Market Value Ratio**, **Price-Earnings Effect**, the **Size Effect**, and the **Price-Earnings/Growth Rate (PEG) Ratios Effect**. As the thesis goes, these last three effects will be presented in greater detail in the next sections of this chapter.
+
+So, as stated from the first chapter – Introduction, this thesis will focus much on testing the EMH through anomalies that are indicated from Price-Earnings ratio, Market Capitalization, and their family value factors. So what is anomaly? How anomalies are defined? How the effect of P/E and Size may lead to anomaly? The next section will determine the answer for these kinds of question.
+
+**2\. Anomalies and Theories on Anomaly Measurements** The returns which are out of explanation from theories that are discovered by empirical studies and researches (of both cross-sectional and time-series) are classified as anomaly.
+
+There are probably many models and theories that define anomalies and indicate the method of measurement, however, on this thesis, the Capital Asset Pricing Model – Treynor (1961), Sharpe (1964), Lintner (1965), and Mossin (1965) is chosen based on its central position role toward the financial world since its inception.
+
+The CAPM was developed on the initial work of modern portfolio theory of Harry Markowitz that we have introduced from the above part of this chapter. CAPM, basically, is used to price a particular asset or portfolio using Security Market Line (hereafter: SML). SML demonstrates the expected reward and its relations to beta, the systematic risk. Therefore, using SML, investors can compare the expected/required rate of return to the rate that they estimate that they will yield on the investment to determine whether the asset/investment is undervalued or overvalued. The required rate of return from CAPM is determined follow:
+
+Expected Return-i = Risk Free Rate + βi(Market Return – Risk Free
+
+The difference between estimated return and expected return is sometimes referred to as a security’s alpha or anomaly, this will be demonstrated more detail in the next chapter, The Study Design and Methodology.
+
+[![](http://69.195.124.154/~huetrico/wp-content/uploads/2012/05/sml.png "SML")](http://69.195.124.154/~huetrico/wp-content/uploads/2012/05/sml.png)
+
+The following part will go through empirical researches about anomalies findings related to Price-Earnings and Size.
+
+**3\. Empirical Researches on Price-earnings Ratio** Since Nicholson (1960) opened the first argument and showed that low P/E ratio companies yield higher returns, which is evidence against EMH. The finding led to numerous other studies about a bias of P/E ratio toward abnormal returns, and directly or indirectly led to the booming of style investment strategy. This section will go through numerous empirical studies on P/E ratio and show the evolving of academic study on P/E ratio and P/E ratio family factors.
+
+**3.1. Studies on Price-earnings Ratio** Nicholson (1960) concluded that: “The purchaser of common stocks may logically seek the greater productivity represented by stocks with low rather than high price-earnings ratios” – and this statement became the first shoot of academic world to the later-called “P/E Effect”. Basically, Nicholson found that low P/E companies not only outperform high P/E companies during a long studied period, but low P/E companies also beat the market at general. And he called the value that low P/E contributes to this phenomenon is “Value Premium”. The finding of Nicholson in 1960 was like an awaken signal for academic professors and practitioners to dig into the P/E factor for a useful prediction of stock returns. In just a few years later, noticeable studies by McWilliam (1966), Miller & Widmann (1966), Breen (1968), and Breen & Savage (1968) also found somewhat same evidence with Nicholson and supported to the P/E Effect as strong evidence against the semi-strong form of Efficient Market Hypothesis with the existence of predictable anomalies.
+
+However, in 1977, Basu (1977) pointed out several limitations of previous researches by Nicholson, Breen, McWilliam, Miller, and Savage as: (1) No adjustment for risk, transaction cost, marginal information processing, and tax, (2) survivorship bias – did not take into account companies which had bankrupted before the studies, and (3) look-ahead bias – assumed all needed information was available at the time of study while the reality was not. Therefore, Basu reanalyzed the New York Stock Exchanges (hereafter: NYSE) companies actually traded during 1956-1971 with adjustment for risk, tax, look-ahead bias, etc to test the semi-strong form of Efficient Market Hypothesis. Finally, while the Efficient Market Hypothesis denies the chance of having an excess return, Basu’s finding generally supported Nicholson on the conclusion that the relationship between investment performance of tickers and their price-earnings ratios was positive. He explained that the existence of anomalies due to price-earnings ratio was due to the exaggerated investor expectations, that price-earnings ratio information was not “fully reflected” into the security prices as fast as the Efficient Market Hypothesis suggested. It’s a gradual adjustment process and it takes time. Abnormal returns from price-earnings indication reflect this adjustment.
+
+Interestingly, 12 years later, Johnson, Fiore, and Zuber (1989) had a study directly aimed to Basu’s study in 1977 to test the validity of Basu’s argument under a different time-period. Johnson, Fiore, and Zuber (1989) analyzed the performance of 1,168 stocks on NYSE based on P/E selection during 1979 to 1985 and evaluated them by using performance measurement developed by Sharpe, Treynor, and Jensen. Their conclusion was that there were some abnormal returns by using P/E but those excess returns were not come from investing in low P/E stocks. The research absolutely placed some doubts to the Basu’s argument of price-earnings could predict the movement of stocks on a sustainable fashion.
+
+The argument that P/E can lead to bias returns became a “global” and “history” characteristic when numerous other studies gave out different contradictory results on P/E Effect due to time of studying and the market under study. One noticeable finding by Staff (2004) studied on Canadian equities markets on P/E Effect stated anomalies could come from both low and high P/E companies; the matter is which kinds of stock that the investors are considering. Staff (2004) effectively showed that the most important decision to make was to define a stock is growth type or cyclical type. Under growth type, buy low P/E would be preferable like most of previous studies. Under cyclical type, buy high P/E and sell low P/E would be more preferable. Why? - Because the Earnings Per Share (hereafter: EPS) side of the P/E ratio: during a low business season, these cyclical companies would have very low earnings, and this phenomenon pushes the P/E ratio to sky-high. Then he argued that it’s the best time to buy a cyclical stock: at its earning trough and preparing to take off.
+
+Although P/E Effect is so fashion-like, that in some period it’s in the fashion but some others it’s out the fashion, these findings did an effect on money management segment that P/E Effect had been widely applied by value/contrarian fund managers. From practicing the tactic, they also realized that the value premium by P/E was mostly positive over time, means that low P/E companies often outperform the market. To sum up, Bary (2008) gave an insightful classical temporary conclusion about P/E Effect under current period: “Buying a stock with low P/E ratios doesn’t guarantee profits. But over time, it’s been a winning formula”
+
+**3.2. Market Price-earnings Ratio Indicator** Not only individual stocks’ P/E ratios got the attention of academic studies, Price Earnings of market also got the same attention from economists and macro policy makers. One of the most famous studies on mean aggregate market P/E and related factors conducted by Campbell & Robert Shiller (1998, 2001), the former serves as chairman of Economics Department at Harvard University while the later is probably the most famous and influential economics professor at Yale University. Campbell & Shiller (1998, 2001) supported the idea that was well noticed on academic world that unusual high or low market valuation ratios lead to extreme future stock price changes. Shiller (2002) sums up in his another study on macro P/E: “… when the price-earnings ratio has been high, let’s say between 20 and 25, the real return over the next ten years has been meager or negative”. Basically, Campbell & Shiller, in their studies in 1998 and 2001 about U.S. equities during the late 1990s, predicted that the US equities would lose 40% value over the period 1997-2006. Their studies backed up by the idea that the mean reversion of the ratio occur almost exclusively from adjustment of prices rather than earnings or dividends; so (1) when average market dividend yield is extremely low, it’s the signal for poorer further stock returns and (2) high average market P/E ratio predict negative changes in future stock prices.
+
+[![](http://69.195.124.154/~huetrico/wp-content/uploads/2012/05/plot-of-sp-composite-real-price-index-earnings-dividends-and-interst-rate-1871-2006.png "Plot of S&P Composite Real Price Index, Earnings, Dividends, and Interst Rate 1871-2006")](http://69.195.124.154/~huetrico/wp-content/uploads/2012/05/plot-of-sp-composite-real-price-index-earnings-dividends-and-interst-rate-1871-2006.png)
+
+So whether predictions of Campbell & Shiller were correct? – Not likely, from 1997, the U.S. equities has two dramatically declines in 2000-2001 and 2007-2008 due to dot com crisis and mortgage crisis rather than due to the prediction of price-earnings. Lately, Donna, Benjamas, and Thomas (2008) on trying to analyze the predictability of P/E ratio to returns developed a sophisticated regression model that relates market P/E to eight fundamental variables includes: Dividend payout ratio, One-year-T-Note yield, the spread between Aaa and Bbb corporate bonds, the slope of yield curve, a proxy for expected growth, the implied tax rate, the SMB and HML benchmark risk factors developed by Fama and French (1993). The regression model then used to predict the P/E each quarter, base on information available and independent variables in that particular quarter. The difference between actual P/E and predicted P/E then is explained by other factors than the fundamental determinants of P/E. The residuals are then tested the predictability ability by examining the returns cumulated following positive and negative residuals. Their regression model showed below:
+
+E/Pt = α + β1(S&P Dividend Payout)t + β2(1 Yr. T-Note Yield)t + β3(Default Spread)t + β4(Slope of Yield Curve)t + β5(Forecasted Growth S&P500 Index)t + β6(Implied Tax Rate)t + β7(Fama-French SMB factor)t + β8(Fama-French HML factor)t + εt
+
+Specifically, by controlling fundamental variables that should effect the P/E ratio, their findings indicate that high P/E ratios do not always a signal for overpricing like Campbell and Shiller (1998, 2001) findings, but basically just simply reflect changes in fundamental valuations factors.
+
+Also in 2008, probably the most insightful and fully (on time scale) study on average market price-earnings ratio belongs to Robert A. Weigand & Robert Irons (2008). Weigand and Irons (2008) tried to explain the market P/E ratio through the Fed model. They investigated time series characteristics of the market P/E ratio from 1871 to 2004 on U.S. equities to determine the paradigm to describe the behavior of this ratio. Their most interesting findings was time-series characteristics of market P/E ratio suggest that it can remain above trend for extended periods, and possibly forever – this was adversely to Campbell & Shiller (1998, 2001) arguments. So due to the nonstable characteristic series of aggregate market P/E ratio since 1960 (on U.S. equities), from statistical point of view, this ratio has no relation to past value in both short-run and long-run. Therefore, they suggested that there is no reason to fear that profoundly negative impact accompanied by the P/E ratio reversion due to numerator, hence, the price adversely changes.
+
+Now let’s turn to the P/E Effect in a combination.
+
+**3.3. Studies on Combination between Price-earnings Ratio and other Factors to Anomalies** School of thought about P/E Effect did not stop there at market P/E, many studies tried to lock P/E to other factors in order to draw an insightful prediction toward future stock prices. Let’s start with Donald J. Peter (1991) study on using PE/GROWTH ratios to develop a contrarian approach to growth stocks. Based on the findings that low P/E often perform better than high P/E stocks, Peter (1991) developed a method to value growth stock by using PE/GROWTH ratios toward S&P 500 during 1980-1989. In which, Peter used Price-earnings as numerator and mean long-term growth forecast as denominator. Due to his findings, he concluded that PE/GROWTH ratio can be used to evaluate the growth stocks and compare between different growth-stocks for selection strategy. And his conclusion also supported to contrarian approach to investment in growth-stocks: “”Discounted” growth-stocks outperform those with high expectation”, he also warned that high growth-stock fliers often exposed to the risk of crashing and burning afterward.
+
+13 years after to Donald J. Peter (1991) findings, Peter D. Easton (2004) announced another approach toward price-earnings and price-earnings growth ratios (PEG ratio) on predicting and estimating expected rate of return on equity capital. However, different to Donald J. Peter (1991), Peter D. Easton (2004) used short-term earnings growth rate in denominator in price-earnings growth ratio, rather than using the mean long-term growth forecast like Donald, with an argument that with the combination to short-term earnings growths, price-earnings growth ratio provides a better ranking than using P/E alone. The empirical study led to many different conclusions about earnings model and cost of equity beside the abnormal return prediction power. Easton successfully showed that: “Market prices imply that the market expects growth in earnings to change at an average rate of 2.9 percent per year beyond the two-year forecast horizon. It follows that the estimates of the expected rate of returns based on the PEG ratio are, on average, 1.7 percent lower than the estimate that take this growth into account” thus he suggested that PEG ratio provided a more useful approach to evaluate stock with even less bias in estimating than P/E ratio.
+
+On another approaches, Patricia M. Fairfield (1994) integrated P/E and Price to Book Value (hereafter: P/B) to predict patterns of future profitability that finally lead to changes in future dividends. In that study, price-earnings is a function of expected changes in future profitability, meanwhile, price/book ratio is another function that explain the expected level of future profitability. Their conclusion emphasized that the financial statement analysis techniques can be used to translate accounting information to earnings forecasts. Meanwhile, Keith Anderson & Chris Brooks (2006) on study of UK stock market during 1975 to 2003 added more years to traditional P/E ratio and extend it into eight-years P/E ratios (instead of traditional four-quarters P/E) and found that it is twice effective than traditional P/E on predict stock behaviors. However, they also admitted that the difference between glamour stocks and value stocks were not followed as a linear relationship.
+
+These all studies, and absolutely much more studies that this literature review did not take into account, tell one major idea: P/E ratio and its combination are absolutely a somewhat important figures to financial world. Their existence provides much meaningful information for investors for their seeking alphas in investment profession.
+
+**4\. Empirical Researches on Market Capitalization** Beside P/E ratio, academic researchers also pay attention to the Size side of the stock even that there are fewer studies on Market Cap side to compare with the number of studies on P/E side. Although Market Capitalization side got less care to compare to P/E side, interestingly, Market Capitalization studies led to numerous different conclusions that highly contradictory to each other. And the debates are still continuing!
+
+**4.1. Studies and Debates on Market ** The size debates, far away, have gone out of academic world’s barrier, in 1980, Institutional Investor, a well publicized magazine on investment world issued an article name: “Is Beta Dead?” In that, Richard Michaud of Bache quoted: “Instead of using the beta model, I would probably like to use other factor such as capitalization. It’s related to return”. Numerous hedge funds, private equities, and investment banks went further than that, they established portions/funds/indexes just to trade on small firm sectors.
+
+Banz and Reinganum (1981) did empirical research that analyzed the NYSE during 1936-1975 found that Size Effects for risk-adjusted returns of smallest firms were most pronounced (we will return to their study in later sections). Interestingly, one year later, Brown, Kleidon, and Marsh (1982) rejected the hypotheses from the previous study of Banz and Reinganum (1981) which stated that the Size Effect is stable over time. Brown, Kleidon, and Marsh (1982), and probably their study was the fullest on solely study on size, argued that the predictive power of size is unstable and the results of study on size are sensitive to the time of period studied. In detail, they used a model named Seemingly Unrelated Regression Model (SURM) and a two-step Generalized Least Squared, called GLS, procedure to measure the Size Effect and found that the Size Effect was generally statistically insignificant during the period of 1967-1979. Generally, they issued out three important conclusions: (1) relations between abnormal returns and firm size can be regarded as linear in the log of size, (2) the previous studies that confirmed the stability of Size Effect is generally not correct, (3) different estimation and valuation methodologies might lead to different results, hence, different conclusions about the Size Effect.
+
+Another study conducted by Stoll and Whaley in 1983 approached the influence of transaction costs upheld the Size Effect but also point out that firms with small size often have low stock prices. And because the transaction costs vary inversely with price (this relationship is obvious in U.S. stock market), they argue that the cost must be taken into consideration when studying about the Size Effect. Stoll and Whaley (1983) generally stated that two important factors should be noticed when studying solely on size is that: (1) transaction cost and (2) specified holding period assumption (active or passive, buy-and-hold in how long time frame, etc.). After that, Reinganum (1983) took into account both factors and found out that the small firms outperformed the large firms after considering risk and transaction costs, with annual rebalancing.
+
+Back to the findings of Brown, Kleidon, and Marsh (1982) about the instability of the Size Effect, lately, Reinganum (1992) acknowledged this instability but he restated that the small-firm phenomenon is still a long-term phenomenon.
+
+That’s the academic world studies on Size of U.S. equities, how about other countries under other study fashions? Andy Chui and John Wei (1997) studies equity markets of Hong-Kong, Korea, Malaysia Taiwan and Thailand found that size play an influential role in all markets they studies. Especially, large firm in Hong Kong and small firm in Korea experienced a higher return during some particular periods, especially January, on a combination with January Effect. This study also showed clearly: not blue-chips would be safer than pennies, and not pennies would make better return to compare with blue-chips: it highly depends on the characteristics of the market and tastes of particular market participants. Lately, one final explanation in the Size Effect was regarded to the openness of the capital control policy of the country.
+
+**4.2. Studies on Relations between Market Cap and Price Earnings Ratio to Anomalies** For the combination of the two, there is even more contradictory conclusion from researchers. Back to some authors and studies we have stated above, Reinganum (1981) found that Size Effect subsumes P/E Effect; meanwhile Basu (1983) found that P/E Effect subsumes Size Effect. Later on, Cook and Rozeff (1989) reanalyzed the findings of Reinganum (1981) and Basu (1983) and tried to answer the question of which factor contends which factor. He found that the combination of the three, P/E, Size, and January, is significant, but only size and P/E were not.
+
+Afterward, Keith Anderson and Chris Brooks (1995) studied the UK stock markets from 1975 and proposed the idea that P/E is partly defined by other factors like Years, Size, Sector, etc and they studied a regression model to decompose the influences in P/E. The authors then isolated those factors to determine the influence level of each to P/E. Interestingly, among them, the sector influence to P/E was almost negative, and Size played a relatively higher significant role to the behavior of P/E and the return of the stock than other factors.
+
+Taking all into account, as the thesis has reviewed through the evolving history of Efficient Market Hypothesis and empirical studies, the study on the combination of P/E ratio and Size to test the efficiency of HoSE and attempt to find anomalies would absolutely on the right side of the deal for both academic and investment purpose.
+
+\--
+
+Forward to [Chapter III – Study Design and Methodology](https://huetri.com/2010/05/30/an-analysis-on-relations-of-price-earnings-ratio-and-market-capitalization-to-anomaly-returns-4/ "Chapter III - Study Design and Methodology") Backward to [Chapter I - Introduction](https://huetri.com/2010/05/30/an-analysis-on-relations-of-price-earnings-ratio-and-market-capitalization-to-anomaly-returns-2/ "Chapter I - Introduction")
