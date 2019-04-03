@@ -10,7 +10,7 @@
     "build": "bundle exec jekyll build",
     "start": "yarn watch & ws --http2 -d _site --port=443",
     "deploy_old": "npm run build && gh-pages -d _site",
-    "deploy": "npm run build && git subtree push --prefix=_site/ origin gh-pages"
+    "deploy": "npm run build && git subtree push --prefix=_site origin gh-pages"
   },
   "repository": {
     "type": "git",
