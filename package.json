@@ -9,7 +9,8 @@
     "watch": "bundle exec jekyll build --watch --config='_config.yml,_config.dev.yml'",
     "build": "bundle exec jekyll build",
     "start": "yarn watch & ws --http2 -d _site --port=443",
-    "deploy": "npm run build && gh-pages -d _site"
+    "deploy_old": "npm run build && gh-pages -d _site",
+    "deploy": "npm run build && git subtree add --prefix _site/ origin gh-pages"
   },
   "repository": {
     "type": "git",
