@@ -23,7 +23,7 @@ sections:
   label: Drafts
   create: documents
   match: "**/*"
-  new_doc_ext: md
+  new_doc_ext: ".md"
   templates:
   - post
 - type: jekyll-posts
