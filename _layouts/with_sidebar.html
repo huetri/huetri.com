@@ -1,23 +1,28 @@
 ---
 layout: default
 ---
-
 <section id="container" class="two-columns-left">
     <div id="content" role="main">
         <div class="breadcrumbs">
-            <a href="{{- '/' | relative_url -}}"
-                ><i class="crycon-homebread"></i
-                ><span class="screen-reader-text">Home</span></a
-            >
-            {%- assign breadcrumbs = page.url | split: '/' -%}
-            {%- assign path = site.baseurl -%}
-            {%- for item in breadcrumbs -%}
-                {%- if item != '' -%}
-                    {%- assign path = path | append: '/' | append: item -%}
-                    <i class="crycon-angle-right"></i>
-                    <a href='{{ path | relative_url }}'>{{ item }}</a>
-                {%- endif -%}
-            {%- endfor -%}
+            <a href="{{ '/' | relative_url }}"><i class="crycon-homebread"></i><span
+                    class="screen-reader-text">Home</span></a>
+            <i class="crycon-angle-right"></i>
+            {%- if page.type == 'category' -%}
+                <span>{{ page.title }}</span>
+            {%- elsif page.type == 'tag' -%}
+                <span>{{ page.title }}</span>
+            {%- elsif page.type == 'month' -%}
+                <span>{{ page.date | date: '%B %Y' }}</span>
+            {%- elsif page.categories[0] -%}
+                <a href="{{ site.baseurl }}/category/{{ page.categories[0] | slugify }}">
+                    {{- page.categories[0] -}}
+                </a>
+
+                <i class="crycon-angle-right"></i>
+                <span>{{ page.title }}</span>
+            {%- else -%}
+                <span>{{ page.title }}</span>
+            {%- endif -%}
         </div>
         <!--breadcrumbs-->
 

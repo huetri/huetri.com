@@ -33,13 +33,46 @@
                             <div>
                                 {{- image.description -}}
                             </div>
-                            <div class="gallery-comments">
-                                <div class="fb-comments" data-href='{{- site.url | append: image.image -}}' 
-                                    data-numposts="5"
-                                    data-width="100%"
-                                    style="margin: 0 auto"
-                                    data-colorscheme="dark"></div>
+                            <div class="gallery-info">
+                                <div class='gallery-image-info'>
+                                {%- assign url = image.image -%}
+                                {%- exif url -%}
+                                    <div class="jp-carousel-image-meta" style="margin-top: 20px; width: 250px;">
+                                        <div class="jp-carousel-buttons">
+                                            <a class="jp-carousel-commentlink" href="#">Comment</a>
+                                        </div>
+                                        <ul class="jp-carousel-image-exif">
+                                            <li>
+                                                <h5>Aperture</h5>{{ aperture_value }}
+                                            </li>
+                                            <li>
+                                                <h5>Camera</h5>{{ model }}
+                                            </li>
+                                            <li>
+                                                <h5>Copyright</h5>{{ copyright }}
+                                            </li>
+                                            <li>
+                                                <h5>Focal Length</h5>{{ focal_length }}mm
+                                            </li>
+                                            <li>
+                                                <h5>Shutter Speed</h5>{{ shutter_speed_value }}s
+                                            </li>
+                                        </ul>
+                                        <a class="jp-carousel-image-download" 
+                                            href="{{ url | relative_url }}" target="_blank">View full size</a>
+                                        <div class="jp-carousel-image-map" style="display:none;"></div>
+                                    </div>
+                                {%- endexif -%}
+                                </div>
+                                <div class="gallery-comments col-md-9">
+                                    <div class="fb-comments" data-href='{{- site.url | append: image.image -}}' 
+                                        data-numposts="5"
+                                        data-width="100%"
+                                        style="margin: 0 auto; max-width: 100%"
+                                        data-colorscheme="dark"></div>
+                                </div>
                             </div>
+                            
                         </div>
                     </div>
                 {%- endfor -%}

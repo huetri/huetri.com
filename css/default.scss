@@ -791,3 +791,14 @@ img[data-src] {
         filter: blur(5px) saturate(150%);
     }
 }
+
+.slider-wrapper, #front-columns {
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+}
+
+#track-nav {
+    visibility: hidden;
+    height: 1px;
+}

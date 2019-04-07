@@ -1,5 +1,18 @@
 ---
 layout: with_sidebar
+type: gallery
+show_image_info:
+    - name: aperture_value
+      label: APERTURE
+    - label: CAMERA
+      name: model
+    - label: COPYRIGHT
+      name: copyright
+    - label: FOCAL LENGTH
+      name: focal_length
+    - label: SHUTTER SPEED
+      name: shutter_speed_value
 ---
+
 {%- include gallery.html -%}
 <script defer src="{{- '/js/gallery.js' | relative_url -}}"></script>

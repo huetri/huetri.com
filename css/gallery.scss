@@ -180,4 +180,16 @@
             }
         }
     }
+
+    &-info {
+        display: flex;
+        flex-direction: row-reverse;
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+    &-comments {
+        float: left;
+        width: 100%;
+    }
 }

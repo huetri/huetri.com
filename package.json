@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/beohoang98/huetri.com.git"
+    "url": "git+https://github.com/thai-hq/huetri.com.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/beohoang98/huetri.com/issues"
+    "url": "https://github.com/thai-hq/huetri.com/issues"
   },
-  "homepage": "https://github.com/beohoang98/huetri.com#readme",
+  "homepage": "https://github.com/thai-hq/huetri.com#readme",
   "devDependencies": {
     "cloudscraper": "^3.1.0",
     "gh-pages": "^2.0.1",

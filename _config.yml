@@ -6,6 +6,7 @@ url: "https://beohoang98.github.io"
 twitter_username: HueTri_Ton
 github_username: jekyll
 permalink: pretty
+author: 'Tri Ton'
 
 include: [_Incapsula_Resource]
 
@@ -29,6 +30,10 @@ plugins:
     - jekyll-menus
     - jekyll-sitemap
     - jekyll-paginate
+
+exiftag:
+    sources:
+        - wp-content/uploads/2015/11
 
 paginate: 6
 paginate_path: /page/:num/
