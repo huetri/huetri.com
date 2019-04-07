@@ -1,95 +1,87 @@
 ---
 title: USD 1 billion Vietnam's Private Equity fund challenge
-link: >-
-  https://huetri.com/2013/07/07/usd-1-billion-vietnams-private-equity-fund-challenge/
-pubDate: 'Mon, 08 Jul 2013 05:04:36 +0000'
-'dc:creator': huetri@gmail.com
+link: https://huetri.com/2013/07/07/usd-1-billion-vietnams-private-equity-fund-challenge/
+pubDate: 2013-07-08 05:04:36 +0000
+dc:creator: huetri@gmail.com
 guid:
   isPermaLink: 'false'
-  $t: 'https://huetri.wordpress.com/?p=1106'
+  "$t": https://huetri.wordpress.com/?p=1106
 description: {}
 id: 1106
-thumbnail_url: ''
+thumbnail_url: "/wp-content/uploads/2013/07/20130707-220944.jpg"
 categories:
-  - 'Market: Vietnam'
-  - Private Equity
+- 'Market: Vietnam'
+- Private Equity
 tags:
-  - Private Equity
-date: 'Sun, 07 Jul 2013 22:04:36 GMT'
+- Private Equity
+date: 2013-07-07 22:04:36 +0000
 layout: post
 post_date_gmt: '2013-07-08 05:04:36'
 comment_status: closed
 ping_status: closed
 post_name: usd-1-billion-vietnams-private-equity-fund-challenge
 status: publish
-post_parent: '0'
-menu_order: '0'
+post_parent: 0
+menu_order: 0
 post_type: post
 post_password: {}
-is_sticky: '0'
+is_sticky: 0
 postmeta:
-  - meta_key: geo_public
-    meta_value: '0'
-  - meta_key: _wpas_done_2962584
-    meta_value: '1'
-  - meta_key: _publicize_done_external
-    meta_value: 'a:1:{s:8:"facebook";a:1:{i:507856700;b:1;}}'
-  - meta_key: publicize_twitter_user
-    meta_value: HueTri_Ton
-  - meta_key: _wpas_done_2962598
-    meta_value: '1'
-  - meta_key: _wpas_done_2962641
-    meta_value: '1'
-  - meta_key: _wpas_skip_2962584
-    meta_value: '1'
-  - meta_key: _wpas_skip_2962598
-    meta_value: '1'
-  - meta_key: _wpas_skip_2962641
-    meta_value: '1'
-  - meta_key: twitter_cards_summary_img_size
-    meta_value: >-
-      a:7:{i:0;i:650;i:1;i:1024;i:2;i:2;i:3;s:25:"width="650"
-      height="1024"";s:4:"bits";i:8;s:8:"channels";i:3;s:4:"mime";s:10:"image/jpeg";}
-  - meta_key: _wpt_view_count
-    meta_value: '237'
-  - meta_key: _edit_last
-    meta_value: '1'
-  - meta_key: _snap_forceSURL
-    meta_value: '2'
-  - meta_key: snap_MYURL
-    meta_value: {}
-  - meta_key: snapEdIT
-    meta_value: '1'
-  - meta_key: snapFB
-    meta_value: >-
-      s:253:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"postType";s:1:"A";s:10:"AttachPost";s:1:"2";s:10:"SNAPformat";s:51:"New
-      post (%TITLE%) has been published on
-      %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";}}";
-  - meta_key: snapLI
-    meta_value: >-
-      s:262:"a:1:{i:0;a:8:{s:4:"doLI";s:1:"1";s:8:"postType";s:1:"A";s:10:"SNAPformat";s:41:"New
-      post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post -
-      %TITLE%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";}}";
-  - meta_key: snapTW
-    meta_value: >-
-      s:145:"a:1:{i:0;a:5:{s:4:"doTW";s:1:"1";s:10:"SNAPformat";s:15:"%TITLE% -
-      %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";}}";
-  - meta_key: wp_review_location
-    meta_value: bottom
-  - meta_key: wp_review_desc_title
-    meta_value: Summary
-  - meta_key: _wpas_skip_6063117
-    meta_value: '1'
-  - meta_key: wp_review_color
-    meta_value: '#1e73be'
-  - meta_key: wp_review_fontcolor
-    meta_value: '#555555'
-  - meta_key: wp_review_bgcolor1
-    meta_value: '#e7e7e7'
-  - meta_key: wp_review_bgcolor2
-    meta_value: '#ffffff'
-  - meta_key: wp_review_bordercolor
-    meta_value: '#e7e7e7'
+- meta_key: geo_public
+  meta_value: 0
+- meta_key: _wpas_done_2962584
+  meta_value: 1
+- meta_key: _publicize_done_external
+  meta_value: a:1:{s:8:"facebook";a:1:{i:507856700;b:1;}}
+- meta_key: publicize_twitter_user
+  meta_value: HueTri_Ton
+- meta_key: _wpas_done_2962598
+  meta_value: 1
+- meta_key: _wpas_done_2962641
+  meta_value: 1
+- meta_key: _wpas_skip_2962584
+  meta_value: 1
+- meta_key: _wpas_skip_2962598
+  meta_value: 1
+- meta_key: _wpas_skip_2962641
+  meta_value: 1
+- meta_key: twitter_cards_summary_img_size
+  meta_value: a:7:{i:0;i:650;i:1;i:1024;i:2;i:2;i:3;s:25:"width="650" height="1024"";s:4:"bits";i:8;s:8:"channels";i:3;s:4:"mime";s:10:"image/jpeg";}
+- meta_key: _wpt_view_count
+  meta_value: 237
+- meta_key: _edit_last
+  meta_value: 1
+- meta_key: _snap_forceSURL
+  meta_value: 2
+- meta_key: snap_MYURL
+  meta_value: {}
+- meta_key: snapEdIT
+  meta_value: 1
+- meta_key: snapFB
+  meta_value: s:253:"a:1:{i:0;a:8:{s:4:"doFB";s:1:"1";s:8:"postType";s:1:"A";s:10:"AttachPost";s:1:"2";s:10:"SNAPformat";s:51:"New
+    post (%TITLE%) has been published on %SITENAME%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";}}";
+- meta_key: snapLI
+  meta_value: s:262:"a:1:{i:0;a:8:{s:4:"doLI";s:1:"1";s:8:"postType";s:1:"A";s:10:"SNAPformat";s:41:"New
+    post has been published on %SITENAME%";s:11:"SNAPformatT";s:18:"New Post - %TITLE%";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";s:9:"isAutoURL";s:1:"A";s:8:"urlToUse";s:0:"";}}";
+- meta_key: snapTW
+  meta_value: s:145:"a:1:{i:0;a:5:{s:4:"doTW";s:1:"1";s:10:"SNAPformat";s:15:"%TITLE%
+    - %URL%";s:8:"attchImg";s:1:"1";s:9:"isAutoImg";s:1:"A";s:8:"imgToUse";s:0:"";}}";
+- meta_key: wp_review_location
+  meta_value: bottom
+- meta_key: wp_review_desc_title
+  meta_value: Summary
+- meta_key: _wpas_skip_6063117
+  meta_value: 1
+- meta_key: wp_review_color
+  meta_value: "#1e73be"
+- meta_key: wp_review_fontcolor
+  meta_value: "#555555"
+- meta_key: wp_review_bgcolor1
+  meta_value: "#e7e7e7"
+- meta_key: wp_review_bgcolor2
+  meta_value: "#ffffff"
+- meta_key: wp_review_bordercolor
+  meta_value: "#e7e7e7"
 
 ---
 How large can a Private Equity fund in Vietnam be?
