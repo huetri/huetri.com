@@ -554,12 +554,6 @@
 <loc>https://beohoang98.github.io/huetri.com/2017/11/30/</loc>
 </url>
 <url>
-<loc>https://beohoang98.github.io/huetri.com/wp-content/plugins/jetpack/modules/calypsoify/</loc>
-</url>
-<url>
-<loc>https://beohoang98.github.io/huetri.com/wp-content/plugins/jetpack/modules/subscriptions/</loc>
-</url>
-<url>
 <loc>https://beohoang98.github.io/huetri.com/page/2/</loc>
 </url>
 <url>
@@ -583,6 +577,10 @@
 <url>
 <loc>https://beohoang98.github.io/huetri.com/_Incapsula_Resource/</loc>
 <lastmod>2019-03-24T09:39:59+07:00</lastmod>
+</url>
+<url>
+<loc>https://beohoang98.github.io/huetri.com/admin/</loc>
+<lastmod>2019-04-07T23:15:07+07:00</lastmod>
 </url>
 <url>
 <loc>https://beohoang98.github.io/huetri.com/wp-content/plugins/jetpack/inc/build/static-ie-notice.html</loc>
