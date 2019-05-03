@@ -15,7 +15,7 @@ jobs:
     steps:
       - run:
           name: Prepare denpendencies
-          command: sudo apt-get install libimage-exiftool-perl
+          command: apt install libimage-exiftool-perl
 
       - run:
           name: Clone
