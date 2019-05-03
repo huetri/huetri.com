@@ -1,9 +1,10 @@
-_site
+_site/
 .sass-cache
 .jekyll-metadata
 node_modules
 
 _importwp/_*
+.idea/
 
 _importwp/wordpress.xml
 *.crt
