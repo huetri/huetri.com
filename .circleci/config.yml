@@ -1,0 +1,41 @@
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+      - image: starefossen/ruby-node
+
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/mongo:3.4.4
+    working_directory: ~/repo
+    enviroments:
+      BUNDLE_PATH: ~repos/vendor/bundle
+    steps:
+      - checkout
+      - run: gem install bundler
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "Gemfile" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run: yarn install
+      - run: bundle install
+
+      - save_cache:
+          paths:
+            - vendor/bundle
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      # run tests!
+      - run:
+          name: Build
+          command: yarn build
+
+      - run:
+          name: Deploy to Github Pages
+          command: yarn deploy_old
