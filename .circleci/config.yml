@@ -1,6 +1,9 @@
 version: 2
 jobs:
   build:
+    branches:
+      only:
+        - master
     docker:
       # specify the version you desire here
       - image: starefossen/ruby-node
@@ -15,7 +18,10 @@ jobs:
     steps:
       - run:
           name: Prepare denpendencies
-          command: apt install libimage-exiftool-perl
+          command: |
+            apt-get install apt-file
+            apt-get update 
+            apt-get install libimage-exiftool-perl
 
       - run:
           name: Clone
