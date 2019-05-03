@@ -16,6 +16,7 @@ jobs:
       - run:
           name: Clone
           command: |
+            mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
             git clone git@github.com:thai-hq/huetri.com.git ~/repo
             cd ~/repo
 
@@ -47,4 +48,7 @@ jobs:
 
       - run:
           name: Deploy to Github Pages
-          command: yarn deploy_old
+          command: |
+            git config --local user.name="Hoang Dan An (CircleCI)"
+            git config --local user.email="beohoang98@noreply.users.github.com"
+            yarn deploy_old
