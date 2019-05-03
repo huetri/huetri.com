@@ -19,7 +19,8 @@ jobs:
       - run:
           name: Prepare denpendencies
           command: |
-            apt-get install apt-file
+            add-apt-repository main
+            add-apt-repository universe
             apt-get update 
             apt-get install libimage-exiftool-perl
 
