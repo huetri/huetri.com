@@ -62,7 +62,7 @@ jobs:
       # run tests!
       - run:
           name: Build
-          command: yarn build
+          command: yarn build && ls _site/ -al
 
       - save_cache:
           paths:
