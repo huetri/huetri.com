@@ -22,7 +22,7 @@ jobs:
             uname -r
             echo "ipv6" >> /etc/modules
             apk update
-            apk add --no-cache perl-image-exiftool git openssh python make gcc g++
+            apk add --no-cache perl-image-exiftool exiftool git openssh python make gcc g++
             apk update
 
       - run:
