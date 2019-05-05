@@ -21,6 +21,9 @@ collections:
         output: true
         permalink: /:slug/
 
+include:
+    - ".circle"
+
 # Build settings
 markdown: kramdown
 theme: minima
