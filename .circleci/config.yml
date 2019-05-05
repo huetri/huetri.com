@@ -45,18 +45,29 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
       - run: yarn install
       - run: bundle install --path $BUNDLE_PATH
 
       - save_cache:
           paths:
-            - ~repos/vendor/bundle
+            - ~/repos/vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile" }}
 
       # run tests!
       - run:
           name: Build
           command: yarn build
+
+      - save_cache:
+          paths:
+            - ~/repos/node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
 
       - run:
           name: Deploy to Github Pages
