@@ -6,7 +6,7 @@ jobs:
         - master
     docker:
       # specify the version you desire here
-      - image: starefossen/ruby-node
+      - image: starefossen/ruby-node:alpine
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -17,11 +17,13 @@ jobs:
       BUNDLE_PATH: ~repos/vendor/bundle
     steps:
       - run:
-          name: Prepare denpendencies
+          name: Prepare system denpendencies
           command: |
-            sh -c 'echo "deb http://ftp.debian.org/debian jessie-backports main" >> /etc/apt/sources.list'
-            apt-get update 
-            apt-get install -y libimage-exiftool-perl
+            uname -r
+            echo "ipv6" >> /etc/modules
+            apk update
+            apk add --no-cache perl-image-exiftool git openssh
+            apk update
 
       - run:
           name: Clone
