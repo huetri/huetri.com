@@ -57,7 +57,7 @@ jobs:
       - save_cache:
           paths:
             - ~/repos/vendor/bundle
-          key: v1-dependencies-{{ checksum "Gemfile" }}
+          key: v1-gemfile-{{ checksum "Gemfile" }}
 
       # run tests!
       - run:
@@ -67,7 +67,7 @@ jobs:
       - save_cache:
           paths:
             - ~/repos/node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
+          key: v1-nodedev-{{ checksum "package.json" }}
 
       - run:
           name: Deploy to Github Pages
