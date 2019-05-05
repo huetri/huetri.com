@@ -14,7 +14,7 @@ jobs:
       # - image: circleci/mongo:3.4.4
     working_directory: ~/repo
     enviroments:
-      BUNDLE_PATH: ~repos/vendor/bundle
+      BUNDLE_PATH: ~/repos/vendor/bundle
     steps:
       - run:
           name: Prepare system denpendencies
