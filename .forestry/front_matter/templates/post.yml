@@ -31,7 +31,7 @@ fields:
   default: post
   config:
     required: true
-  hidden: true
+  hidden: false
 - type: file
   name: thumbnail_url
   label: thumbnail_url
