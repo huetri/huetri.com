@@ -3,7 +3,7 @@ layout: post
 title: Reading and personal development
 description: reading and personal development
 dc:creator: huetri@gmail.com
-date: 2019-06-22 00:00:00 -0700
+date: 2019-06-22T07:00:00.000+00:00
 categories:
 - Nomad Thinking
 - Life in Technicolor
@@ -26,7 +26,7 @@ Now, go off the books reading, I also read articles, watch and listen to people 
 
 Lastly, as online learning is liberating high quality content to average people everywhere with an internet connection.  It's good to learn from formal and informal online courses some of the time.  I listened to Yale, NYU, and Harvard courses here and there.  I know MIT and Stanford courses are also now available mostly for free.  I also subscribe to a company called Master Class where Phil Ivey here got featured to this blog post.  For Master Class, I learned Daniel Negrenu and Phil Ivey on poker, Paul Krugman on economics, James Suckling on wine tasting.  I'm learning from David Axelrod and Karl Rove on Politics Campaigning and from Malcolm Gladwell on writing.  I want to check out briefly Stephens Curry course on Basketball not to learn the tactics and the drills but to get a feel on how this guy thinks.  I will do the same with Gary Kasparov on his Chess class.  The cost for subcription is $180/annually and considering the value of the content, this is super cheap.
 
-![](/wp-content/uploads/2019/06/22/MC Phil Ivey.jpg)_(Phil Ivey class on Master Class)_
+    <p align='center'> (Phil Ivey class on Master Class) </p>
 
 I want to learn ferrociously.  Learning never stops at school and it is best after the school - where you are matured enough to know what you want to learn about.  And you don't have to learn to compete with anyone.  You just might want to learn to enjoy the time learning (be happy right there) and see where it leads you too.  You will also want to see what's your capable of and when you reach there, what you'll see next on the horizon.
 
