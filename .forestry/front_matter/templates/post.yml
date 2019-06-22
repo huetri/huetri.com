@@ -35,3 +35,5 @@ fields:
 - type: file
   name: thumbnail_url
   label: thumbnail_url
+pages:
+- _posts/reading-and-personal-development.md
