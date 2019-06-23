@@ -14,7 +14,8 @@ function LazyLoadInit() {
     LazyLoadInit();
     let isShow = true;
     document.addEventListener('scroll', () => {
-        const checkShow = $('#track-nav').visible();
+        const checkShow = $('#track-nav').visible(false, false, 'both');
+        console.debug(checkShow);
         if (!checkShow) {
             if (isShow) {
                 isShow = false;
