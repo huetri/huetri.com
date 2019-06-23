@@ -799,6 +799,7 @@ img[data-src] {
 }
 
 #track-nav {
-    visibility: hidden;
-    height: 1px;
+    // visibility: hidden;
+    opacity: 0;
+    height: 5px;
 }

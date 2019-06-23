@@ -171,10 +171,13 @@ body_class: home blog presentation-page coldisplay0
                         <div class="entry-meta">
                             <span class="author vcard">
                                 <i class="crycon-author crycon-metas" title="Author "></i>
-                                <a class="url fn n" rel="author" href="{{ site.baseurl }}/author/huetrigmail-com/"
-                                    title="View all posts by Tri Ton">Tri Ton</a></span><span><i
-                                    class="crycon-time crycon-metas" title="Date"></i>
-                                <time class="onDate date published" datetime="2017-11-30T15:27:40+00:00">
+                                <a class="url fn n" rel="author"
+                                    title="View all posts by Tri Ton">Tri Ton</a>
+                            </span>
+                            
+                            <span>
+                                <i class="crycon-time crycon-metas" title="Date"></i>
+                                <time class="onDate date published" datetime="{{ post.date }}">
                                     <a href="{{ post.url | relative_url }}"
                                         rel="bookmark">
                                         {{- post.date | date: '%B %d, %Y - %l:%M %P' -}}
@@ -192,7 +195,7 @@ body_class: home blog presentation-page coldisplay0
                             <span class="footer-tags">
                                 <i class="crycon-tag crycon-metas" title="Tags"></i>
                                 {%- for tag in post.tags -%}
-                                    <a href="{{ site.baseurl }}/tag/{{tag | slugify}}/" rel="tag">{{ tag }}</a>
+                                    <a href="{{ site.baseurl }}/tag/{{tag | slugify}}/" rel="tag">{{ tag }}, </a>
                                 {%- endfor -%}
                             </span>
                         </div><!-- .entry-meta -->
@@ -215,11 +218,7 @@ body_class: home blog presentation-page coldisplay0
                                 data-comments-opened="1"
                                 data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}">
                         </a>
-                        <p>Today when I work around my focus areas dashboard and struggle with the
-                            Urgent-Important Matrix, I invented a twist into how to prioritize tasks
-                            better.&nbsp; Works really well with me. To illustrate my points, let assume
-                            we have this imaginary company and a simplified sample list of focus areas
-                            that…</p>
+                        <p>{{ post.content | truncate: 200, '...' }}</p>
                         <p class="continue-reading-button">
                             <a class="continue-reading-link"
                                 href="{{ post.url | relative_url }}">Explore
