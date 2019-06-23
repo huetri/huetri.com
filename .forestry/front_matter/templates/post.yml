@@ -31,7 +31,9 @@ fields:
   default: post
   config:
     required: true
-  hidden: true
+  hidden: false
 - type: file
   name: thumbnail_url
   label: thumbnail_url
+pages:
+- _posts/2019-06-22-reading-and-personal-development.md
