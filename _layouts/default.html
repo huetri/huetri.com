@@ -344,15 +344,18 @@
         }
     </style>
 
-    <!-- Jetpack Open Graph Tags -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
+
+    {%- if page.url -%}
+    <meta property="og:url" content="{{ site.url }}{{ page.url | relative_url }}" />
     <meta property="og:title" content="{{ page.title | append: ' -- ' | append: site.title }}" />
     <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 100, '...' }}" />
     
-    {%- if page.url -%}
-    <meta property="og:url" content="{{ page.url }}" />
     {%- else -%}
     <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    
     {%- endif -%}
     
     
@@ -363,7 +366,7 @@
         <meta property="og:image" content="{{site.url}}{{site.baseurl}}/site_cover.jpg" />
     {%- endif -%}
     
-    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:locale" content="en_US" />
     <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
     <meta property="fb:app_id" content="2414564348771560">
     <link rel="alternate" href="{{ '/feed.xml' | relative_url }}" type="application/rss+xml" title="RSS">
