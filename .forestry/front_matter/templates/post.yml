@@ -36,5 +36,5 @@ fields:
   name: thumbnail_url
   label: thumbnail_url
 pages:
-- _posts/in-the-face-of-adversity.md
 - _posts/2019-06-22-reading-and-personal-development.md
+- _posts/in-the-face-of-adversity.md
