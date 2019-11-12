@@ -23,6 +23,10 @@ module Jekyll
       file = File.expand_path path , File.dirname(__FILE__)
 
       exif = Exiftool.new(file)
+
+      if (exif.errors?)
+        return ""
+      end
       exif = exif.to_hash
       context.environments.first['model'] = exif[:model]
       context.environments.first['aperture_value'] = exif[:aperture_value]
