@@ -215,10 +215,11 @@ body_class: home blog presentation-page coldisplay0
                                 data-permalink="{{ post.thumbnail_url | relative_url }}"
                                 data-orig-file="{{ post.thumbnail_url | relative_url }}"
                                 data-orig-size="1999,940"
+                                onerror="this.style.display = 'none'"
                                 data-comments-opened="1"
                                 data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}">
                         </a>
-                        <p>{{ post.content | truncate: 200, '...' }}</p>
+                        <p>{{ post.content | strip_html | truncate: 200, '...' }}</p>
                         <p class="continue-reading-button">
                             <a class="continue-reading-link"
                                 href="{{ post.url | relative_url }}">Explore

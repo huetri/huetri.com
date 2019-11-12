@@ -40,17 +40,8 @@ layout: with_sidebar
 
         {{ page.content }}
 
-        <!-- <script type="text/javascript">
-            jQuery(document).ready(function ($) {
-                $.post("https://huetri.com/wp-admin/admin-ajax.php", {
-                    action: "wpt_view_count",
-                    id: "1596"
-                });
-            });
-        </script> -->
-
         <div class="heateorFfcClear"></div>
-        <div>
+        {%- comment -%} <div>
             <div class="fb-like" 
                 data-href="{{ site.url }}{{ page.url | relative_url }}" 
                 data-layout="standard"
@@ -64,7 +55,7 @@ layout: with_sidebar
                 Comments
             </h4>
             {%- include comments.html url=page.url -%}
-        </div>
+        </div> {%- endcomment -%}
         <div class="heateorFfcClear"></div>
     </div>
     <!-- .entry-content -->
