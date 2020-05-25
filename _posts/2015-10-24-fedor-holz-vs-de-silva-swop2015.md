@@ -105,7 +105,7 @@ Here is the cut-out:
 
 \[embed\]https://www.youtube.com/watch?v=dUZ4OqSHovc\[/embed\]
 
-The hand started at last level of Day 5 with blinds & ante of 20,000/40,000/5,000, Fedor had 2.8M (70BB) in Mid Position while De Silva had 1.8M (45BB) in the Big Blinds.  Pot pre-open was 100,000 8-handed.  Fedor opened ![8s](https://huetri.com/wp-content/uploads/2015/10/8s.gif)[**![7s](https://huetri.com/wp-content/uploads/2015/10/7s.gif)**](https://huetri.com/wp-content/uploads/2015/10/7s.gif) to 90,000 [2.25x BB], folded around to De Silva with [**![ah](https://huetri.com/wp-content/uploads/2015/10/ah.gif)**](https://huetri.com/wp-content/uploads/2015/10/ah.gif)[**![kc](https://huetri.com/wp-content/uploads/2015/10/kc.gif)**](https://huetri.com/wp-content/uploads/2015/10/kc.gif) 3-Bet to 265,000.  Holz called.
+The hand started at last level of Day 5 with blinds & ante of 20,000/40,000/5,000, Fedor had 2.8M (70BB) in Mid Position while De Silva had 1.8M (45BB) in the Big Blinds.  Pot pre-open was 100,000 8-handed.  **Fedor opened !**[8s](https://huetri.com/wp-content/uploads/2015/10/8s.gif)[**![7s](https://huetri.com/wp-content/uploads/2015/10/7s.gif)**](https://huetri.com/wp-content/uploads/2015/10/7s.gif) **to 90,000** [2.25x BB], **folded around to De Silva with** [**![ah](https://huetri.com/wp-content/uploads/2015/10/ah.gif)**](https://huetri.com/wp-content/uploads/2015/10/ah.gif)[**![kc](https://huetri.com/wp-content/uploads/2015/10/kc.gif)**](https://huetri.com/wp-content/uploads/2015/10/kc.gif) **3-Bet to 265,000.  Holz called.**
 
 The Pot was 590,000, making Stack-to-Ratio Ratio of De Silva to 3x and Holz to 4.3x.  At this small Stack-to-Pot Ratio, this hand can be a decisive hand of the tournament of both player for the final table.
 
