@@ -76,7 +76,8 @@
 }
 
 body {
-    font-family: Helvetica, Roboto, sans-serif;
+    font-family: /*"San Francisco Text Regular G1", */"Open Sans", Roboto, sans-serif;
+    line-height: 1.5;
 }
 * {
     -webkit-font-smoothing: antialiased;
@@ -88,12 +89,12 @@ body {
 #content h2.entry-title a,
 #content h1.entry-title,
 #content h2.entry-title {
-    font-family: "Yanone Kaffeesatz Regular";
+    font-family: "Yanone Kaffeesatz Regular", serif;
 }
 
 .widget-title,
 .widget-title a {
-    font-family: "Open Sans Light";
+    font-family: "Open Sans Light", sans-serif;
 }
 
 .entry-content h1,
@@ -108,16 +109,16 @@ body {
 #front-text2 h2,
 .column-header-image,
 .column-header-noimage {
-    font-family: "Open Sans Light";
+    font-family: "Open Sans Light", sans-serif;
 }
 
 #site-title span a {
-    font-family: "Yanone Kaffeesatz Regular";
+    font-family: "Yanone Kaffeesatz Regular", serif;
 }
 
 #access ul li a,
 #access ul li a span {
-    font-family: "Droid Sans";
+    font-family: "Droid Sans", sans-serif;
 }
 
 body {
@@ -537,7 +538,7 @@ html {
 .widget-area a,
 table,
 table td {
-    word-spacing: 0.1px;
+    word-spacing: 2px;
 }
 
 #content h1.entry-title,
@@ -729,11 +730,11 @@ footer.entry-meta {
 
 .post.post-layout {
     font-size: 18px;
-    line-height: 1.15;
-    word-spacing: 0.25em;
+    line-height: 1.5;
+    word-spacing: 2px;
 }
 .post img {
-    display: block;
+    //display: block;
     max-width: 100%;
     object-fit: cover;
     background: #ccc;
@@ -742,7 +743,7 @@ footer.entry-meta {
     // }
 }
 .post-layout.post img {
-    margin: 1em auto;
+    margin: 0 auto;
 }
 
 .sd-content ul {
@@ -772,7 +773,7 @@ body {
         top: 0;
         left: 0;
         z-index: 9999;
-        box-shadow: 0px 5px 5px #0002;
+        box-shadow: 0 5px 5px #0002;
         animation: fadeDown 500ms;
     }
 }
