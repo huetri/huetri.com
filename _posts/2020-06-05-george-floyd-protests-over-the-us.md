@@ -3,7 +3,7 @@ layout: post
 title: George Floyd Protests Over The US
 description: " "
 dc:creator: Tri Ton
-date: 
+date: 2020-06-04 00:00:00 -0700
 categories: []
 tags: []
 thumbnail_url: ''
