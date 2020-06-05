@@ -27,7 +27,7 @@ I include in this post a link to an essay of Obama about the matter:
 
 [https://www.facebook.com/barackobama/posts/10157802011441749?**tn**=K-R](https://www.facebook.com/barackobama/posts/10157802011441749?__tn__=K-R "https://www.facebook.com/barackobama/posts/10157802011441749?__tn__=K-R")
 
-In his post he also directed support toward activist groups that are working toward inequality and demand positive change for black communities. I did check them out and make a round of donations to organizations I feel aligned on the missions and agenda. I engourage you to research about this social issue and contribute to the cause (on your own way, of course).
+In his post he also directed support toward activist groups that are working toward inequality and demand positive change for black communities.  On behalf of my company, Altair Alpha, and me personally, I did check them out and make a round of donations to organizations I feel aligned on the missions and agenda. I engourage you to research about this social issue and contribute to the cause (on your own way, of course).
 
 Black Futures Lab supports black communities by engaging into political activities across local, state, federal so that black communities are better served by policies. [https://blackfutureslab.org/](https://blackfutureslab.org/ "https://blackfutureslab.org/")
 
