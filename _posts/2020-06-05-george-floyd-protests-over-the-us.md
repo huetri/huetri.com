@@ -6,7 +6,7 @@ dc:creator: Tri Ton
 date: 2020-06-04 00:00:00 -0700
 categories: []
 tags: []
-thumbnail_url: ''
+thumbnail_url: "/wp-content/uploads/2020/06/05/img_20200603_175742.jpg"
 
 ---
 The United States is going through another turbulent time as people are taking over the streets across the country over the death of George Floyd. This is of course only the tip of the iceberg over the problem of racism and inequality that have existed in our country for hundred of years. Though over the decades, a lot of improvements have been made and the situation now is better than any where in the past, incidents such as the death of George Floyd or the difference in income and unemployment rate among races show there are still a long journey ahead and many more works to get done. Now, protests cannot go on forever and months from now the anger of the people will subside. But let not this moment be forgotten and use this moment to learn and educate ourselves about inequalities and issues in the country we live in today. These problems have existed for hundreds of years and are systematic, that means they won't be solved by a few weeks of protests. They can be solved, however, but that will be over a long series of changes that might take over generations, from both at political stages and at each of us on the action we take everyday.
